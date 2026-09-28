@@ -1,23 +1,23 @@
-# go-rest-api
+# Go REST API
 
 Portfolio project by [abdankribo](https://github.com/abdankribo).
 
-## Project
+## What it does
+JSON CRUD API with in-memory storage.
 
-Batch 4 portfolio project.
-
-## Features
-
-- Modern UI/UX
-- Responsive design
-- Functional application logic
-- Custom SVG assets
-- Documentation
+## Included
+- Functional core implementation
+- Responsive browser showcase in `web/index.html`
+- Custom SVG logo in `assets/logo.svg`
 - No external database required
 
-## Author
+## Run the core
+```bash
+go run .
+```
 
-Abdank Ribo
+## UI
+Open `web/index.html` in a browser. The UI is a companion showcase; the language implementation remains the source of truth.
 
-GitHub:
-https://github.com/abdankribo
+## License
+MIT
